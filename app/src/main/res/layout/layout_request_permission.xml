@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cl_request_permission"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPureWhite">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/huge_margin"
+        android:layout_marginStart="@dimen/big_margin"
+        android:layout_marginEnd="@dimen/big_margin"
+        android:gravity="center"
+        android:text="@string/request_permission"
+        android:textColor="@color/colorTextBold"
+        android:textSize="@dimen/text_question"
+        android:textStyle="bold"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_access_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        app:layout_constraintBottom_toTopOf="@id/cl_auto_start"
+        app:layout_constraintVertical_chainStyle="packed">
+
+        <ImageView
+            android:id="@+id/iv_access_notification"
+            android:layout_width="@dimen/big_image_size2"
+            android:layout_height="@dimen/big_image_size2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="@dimen/big_margin"
+            android:padding="@dimen/normal_padding2"
+            android:background="@drawable/bg_unlock"
+            android:src="@drawable/ic_bell"
+            app:tint="@color/colorWhite"/>
+
+
+        <TextView
+            android:id="@+id/tv_access_notification"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/iv_access_notification"
+            app:layout_constraintBottom_toTopOf="@id/tv_access_notification_content"
+            app:layout_constraintStart_toEndOf="@id/iv_access_notification"
+            app:layout_constraintEnd_toStartOf="@id/iv_enable_access_notification"
+            app:layout_constraintVertical_chainStyle="packed"
+            android:layout_marginStart="@dimen/normal_margin1"
+            android:layout_marginEnd="@dimen/normal_margin1"
+            android:text="@string/access_notification"
+            android:textSize="@dimen/text_content"
+            android:textColor="@color/colorTextLight"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"/>
+
+        <TextView
+            android:id="@+id/tv_access_notification_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/tv_access_notification"
+            app:layout_constraintEnd_toEndOf="@id/tv_access_notification"
+            app:layout_constraintTop_toBottomOf="@id/tv_access_notification"
+            app:layout_constraintBottom_toBottomOf="@id/iv_access_notification"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/access_notification_description"
+            android:textSize="@dimen/text_small"
+            android:textColor="@color/colorGrey5"
+            android:lineSpacingExtra="@dimen/small_line_spacing"
+            />
+
+        <ImageView
+            android:id="@+id/iv_enable_access_notification"
+            android:layout_width="@dimen/small_image_size_2"
+            android:layout_height="@dimen/small_image_size_2"
+            app:layout_constraintTop_toTopOf="@id/iv_access_notification"
+            app:layout_constraintBottom_toBottomOf="@id/iv_access_notification"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/big_margin"
+            android:padding="@dimen/small_padding3"
+            android:background="@drawable/bg_round_grey"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_auto_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cl_access_notification"
+        app:layout_constraintBottom_toTopOf="@id/cl_battery_optimization"
+        android:layout_marginTop="@dimen/giant_margin"
+        >
+
+        <ImageView
+            android:id="@+id/iv_auto_start"
+            android:layout_width="@dimen/big_image_size2"
+            android:layout_height="@dimen/big_image_size2"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="@dimen/big_margin"
+            android:padding="@dimen/normal_padding2"
+            android:background="@drawable/bg_no_ads"
+            android:src="@drawable/ic_power"/>
+
+        <TextView
+            android:id="@+id/tv_auto_start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/iv_auto_start"
+            app:layout_constraintBottom_toTopOf="@id/tv_auto_start_content"
+            app:layout_constraintStart_toEndOf="@id/iv_auto_start"
+            app:layout_constraintEnd_toStartOf="@id/iv_enable_auto_start"
+            app:layout_constraintVertical_chainStyle="packed"
+            android:layout_marginStart="@dimen/normal_margin1"
+            android:layout_marginEnd="@dimen/normal_margin1"
+            android:text="@string/auto_start"
+            android:textSize="@dimen/text_content"
+            android:textColor="@color/colorTextLight"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"/>
+
+        <TextView
+            android:id="@+id/tv_auto_start_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tv_auto_start"
+            app:layout_constraintBottom_toBottomOf="@id/iv_auto_start"
+            app:layout_constraintStart_toStartOf="@id/tv_auto_start"
+            app:layout_constraintEnd_toEndOf="@id/tv_auto_start"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/auto_start_description"
+            android:textSize="@dimen/text_small"
+            android:textColor="@color/colorGrey5"
+            android:lineSpacingExtra="@dimen/small_line_spacing"/>
+
+        <ImageView
+            android:id="@+id/iv_enable_auto_start"
+            android:layout_width="@dimen/small_image_size_2"
+            android:layout_height="@dimen/small_image_size_2"
+            app:layout_constraintTop_toTopOf="@id/iv_auto_start"
+            app:layout_constraintBottom_toBottomOf="@id/iv_auto_start"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/big_margin"
+            android:padding="@dimen/small_padding3"
+            android:background="@drawable/bg_round_grey"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/cl_battery_optimization"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:layout_constraintTop_toBottomOf="@id/cl_auto_start"
+      app:layout_constraintBottom_toTopOf="@id/bt_enable_permission"
+      android:layout_marginTop="@dimen/giant_margin">
+
+      <ImageView
+          android:id="@+id/iv_battery_optimization"
+          android:layout_width="@dimen/big_image_size2"
+          android:layout_height="@dimen/big_image_size2"
+          app:layout_constraintTop_toBottomOf="parent"
+          app:layout_constraintBottom_toTopOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          android:layout_marginStart="@dimen/big_margin"
+          android:padding="@dimen/normal_padding2"
+          android:background="@drawable/bg_support"
+          android:src="@drawable/ic_battery"/>
+
+      <TextView
+          android:id="@+id/tv_battery_optimization"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          app:layout_constraintTop_toTopOf="@id/iv_battery_optimization"
+          app:layout_constraintBottom_toTopOf="@id/tv_battery_optimization_description"
+          app:layout_constraintStart_toEndOf="@id/iv_battery_optimization"
+          app:layout_constraintEnd_toStartOf="@id/iv_enable_battery_optimization"
+          app:layout_constraintVertical_chainStyle="packed"
+          android:layout_marginStart="@dimen/normal_margin1"
+          android:layout_marginEnd="@dimen/normal_margin1"
+          android:text="@string/battery_optimization"
+          android:textSize="@dimen/text_content"
+          android:textColor="@color/colorTextLight"
+          android:textStyle="bold"
+          android:fontFamily="sans-serif-light"/>
+
+      <TextView
+          android:id="@+id/tv_battery_optimization_description"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          app:layout_constraintTop_toBottomOf="@id/tv_battery_optimization"
+          app:layout_constraintBottom_toBottomOf="@id/iv_battery_optimization"
+          app:layout_constraintStart_toStartOf="@id/tv_battery_optimization"
+          app:layout_constraintEnd_toEndOf="@id/tv_battery_optimization"
+          android:layout_marginTop="@dimen/small_margin"
+          android:text="@string/battery_optimization_description"
+          android:textSize="@dimen/text_small"
+          android:textColor="@color/colorGrey5"
+          android:lineSpacingExtra="@dimen/small_line_spacing"/>
+
+
+      <ImageView
+          android:id="@+id/iv_enable_battery_optimization"
+          android:layout_width="@dimen/small_image_size_2"
+          android:layout_height="@dimen/small_image_size_2"
+          app:layout_constraintTop_toTopOf="@id/iv_battery_optimization"
+          app:layout_constraintBottom_toBottomOf="@id/iv_battery_optimization"
+          app:layout_constraintEnd_toEndOf="parent"
+          android:layout_marginEnd="@dimen/big_margin"
+          android:padding="@dimen/small_padding3"
+          android:background="@drawable/bg_round_grey" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/bt_enable_permission"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height_lesson"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginLeft="@dimen/normal_margin1"
+        android:layout_marginRight="@dimen/normal_margin1"
+        android:layout_marginBottom="@dimen/normal_margin1"
+        android:background="@drawable/bg_button_solid_blue"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="@string/enable_permission"
+        android:textSize="@dimen/text_content"
+        android:textColor="@color/colorWhite" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

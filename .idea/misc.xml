@@ -1,0 +1,35 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Binance/Tool/Github/payment/Tool Mobile/NotificationListener/app/src/main/res/drawable/bg_button_dialog_center.xml" value="0.301" />
+        <entry key="..\:/Binance/Tool/Github/payment/Tool Mobile/NotificationListener/app/src/main/res/drawable/bg_button_solid_blue.xml" value="0.301" />
+        <entry key="..\:/Binance/Tool/Github/payment/Tool Mobile/NotificationListener/app/src/main/res/drawable/bg_unlock.xml" value="0.301" />
+        <entry key="..\:/Binance/Tool/Github/payment/Tool Mobile/NotificationListener/app/src/main/res/layout/layout_request_permission.xml" value="0.36367753623188404" />
+        <entry key="..\:/BkitProjects/NotificationListener/app/src/main/res/drawable-v24/bg_button_dialog_center.xml" value="0.1" />
+        <entry key="..\:/BkitProjects/NotificationListener/app/src/main/res/drawable-v24/bg_button_solid_blue.xml" value="0.1655" />
+        <entry key="..\:/BkitProjects/NotificationListener/app/src/main/res/drawable-v24/bg_dialog.xml" value="0.1" />
+        <entry key="..\:/BkitProjects/NotificationListener/app/src/main/res/drawable-v24/bg_dialog_top.xml" value="0.1655" />
+        <entry key="..\:/BkitProjects/NotificationListener/app/src/main/res/drawable-v24/bg_round_grey.xml" value="0.1655" />
+        <entry key="..\:/BkitProjects/NotificationListener/app/src/main/res/drawable-v24/ic_bell.xml" value="0.1655" />
+        <entry key="..\:/BkitProjects/NotificationListener/app/src/main/res/drawable-v24/ic_correct.xml" value="0.1655" />
+        <entry key="..\:/BkitProjects/NotificationListener/app/src/main/res/drawable/bg_button_solid_blue.xml" value="0.1655" />
+        <entry key="..\:/BkitProjects/NotificationListener/app/src/main/res/drawable/ic_bell.xml" value="0.1655" />
+        <entry key="..\:/BkitProjects/NotificationListener/app/src/main/res/drawable/ic_correct.xml" value="0.1655" />
+        <entry key="..\:/BkitProjects/NotificationListener/app/src/main/res/layout/activity_instruction.xml" value="0.16621376811594202" />
+        <entry key="..\:/BkitProjects/NotificationListener/app/src/main/res/layout/activity_main.xml" value="0.16621376811594202" />
+        <entry key="..\:/BkitProjects/NotificationListener/app/src/main/res/layout/dialog_request_auto_start.xml" value="0.22" />
+        <entry key="..\:/BkitProjects/NotificationListener/app/src/main/res/layout/dialog_request_battery_optimization.xml" value="0.16621376811594202" />
+        <entry key="..\:/BkitProjects/NotificationListener/app/src/main/res/layout/item_notification.xml" value="0.22" />
+        <entry key="..\:/BkitProjects/NotificationListener/app/src/main/res/layout/layout_empty_list.xml" value="0.16621376811594202" />
+        <entry key="..\:/BkitProjects/NotificationListener/app/src/main/res/layout/layout_request_permission.xml" value="0.16621376811594202" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

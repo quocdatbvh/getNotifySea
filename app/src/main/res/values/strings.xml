@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Sea_ACB_Notify</string>
+    <string name="feedback">Phản hồi</string>
+    <string name="send_feedback">Gửi phản hồi</string>
+    <string name="rate_app">Đánh giá ứng dụng</string>
+    <string name="rate">Gửi đánh giá</string>
+    <string name="rate_app_message">Nếu bạn cảm thấy không hài lòng, đừng vội gửi đánh giá thấp, hãy gửi báo cáo lỗi hoặc trải nghiệm chưa tốt của ứng dụng, chúng tôi sẽ khắc phục và hoàn thiện hơn trong bản cập nhật tiếp theo.</string>
+    <string name="give_us_five_stars">Đánh giá 5 sao</string>
+    <string name="rate_dialog_message">Góp ý của bạn là động lực giúp team chúng tôi phát triển sản phẩm ngày một tốt hơn. Vui lòng đánh giá 5 sao và gửi góp ý của bạn nhé. Cảm ơn!</string>
+    <string name="later">Để sau</string>
+    <string name="already_rated">Đã đánh giá</string>
+    <string name="share_us">Chia sẻ Dino English</string>
+    <string name="privacy_policy">Chính sách bảo mật</string>
+    <string name="error_no_email_app">Không có ứng dụng email nào được cài đặt.</string>
+    <string name="share_this_app">Chia sẻ ứng dụng</string>
+    <string name="share_app_message">Nếu bạn cảm thấy NotificationListener hữu ích, hãy chia sẻ ứng dụng này với người thân và bạn bè nhé!</string>
+    <string name="share_app_content">Ứng dụng này rất tuyệt vời. Mọi người hãy dùng thử nhé!</string>
+    <string name="messenger_is_not_installed">Messenger chưa được cài đặt trên thiết bị</string>
+    <string name="facebook_is_not_installed">Facebook chưa được cài đặt trên thiết bị</string>
+    <string name="copied_text_message">Đã sao chép vào bộ nhớ tạm</string>
+    <string name="cancel_dialog">Hủy</string>
+    <string name="ok">OK</string>
+    <string name="confirm_delete_single_sender_notification">Bạn có chắc chắn muốn xóa tất cả thông báo từ người gửi này?</string>
+    <string name="confirm_delete_single_app_notification">Bạn có chắc chắn muốn xóa tất cả thông báo từ ứng dụng này?</string>
+    <string name="confirm_delete_all_notification">Bạn có chắc chắn muốn xóa tất cả thông báo?</string>
+
+    <!--bottom navigation-->
+    <string name="title_home">Thông báo</string>
+    <string name="title_setting">Cài đặt</string>
+
+    <!--    Month-->
+    <string name="january">T1</string>
+    <string name="february">T2</string>
+    <string name="march">T3</string>
+    <string name="april">T4</string>
+    <string name="may">T5</string>
+    <string name="june">T6</string>
+    <string name="july">T7</string>
+    <string name="august">T8</string>
+    <string name="september">T9</string>
+    <string name="october">T10</string>
+    <string name="november">T11</string>
+    <string name="december">T12</string>
+
+    <string name="confirm">Xác nhận</string>
+    <string name="hint_search_notification">Nhập từ khóa</string>
+    <string name="open_app">Mở ứng dụng</string>
+    <string name="troubleshooting">Khắc phục sự cố</string>
+    <string name="re_active">Kích hoạt lại</string>
+    <string name="auto_start">Tự khởi chạy</string>
+    <string name="auto_start_troubleshooting">Đôi khi ứng dụng bị hệ thống chặn. Hãy cho phép ứng dụng chạy ở chế độ nền nếu không ứng dụng sẽ không hoạt động.</string>
+    <string name="auto_start_description">Cho phép ứng dụng chạy ở chế độ nền nếu không ứng dụng sẽ không hoạt động.</string>
+    <string name="request_auto_start_instruction">Tìm ứng dụng NotificationListener trong danh sách và cho phép quyền.</string>
+    <string name="battery_optimization">Tối ưu hóa pin</string>
+    <string name="battery_optimization_troubleshooting">Tắt tối ưu hóa pin để ứng dụng không bị hạn chế bởi hệ thống.</string>
+    <string name="battery_optimization_description">Không hạn chế NotificationListener sử dụng pin để ứng dụng không bị dừng hoạt động.</string>
+    <string name="allow">Cho phép</string>
+    <string name="access_notification">Truy cập thông báo</string>
+    <string name="access_notification_troubleshooting">Nếu ứng dụng không hoạt động bạn có thể tắt Truy cập thông báo, sau đó bật lại để sửa lỗi này.</string>
+    <string name="instruction_description">Tìm ứng dụng NotificationListener và cấp quyền truy cập</string>
+    <string name="general">Chung</string>
+    <string name="no_internet_connection">Không có kết nối mạng.</string>
+    <string name="request_permission">Yêu cầu quyền</string>
+    <string name="watch_instruction_video">Hướng dẫn</string>
+    <string name="access_notification_description">Ứng dụng cần được cấp quyền Truy cập thông báo để lưu các thông báo của bạn</string>
+    <string name="enable_permission">Cấp quyền</string>
+    <string name="app_notification">Thông báo</string>
+    <string name="got_it">Đã hiểu</string>
+    <string name="save_notification">Cài đặt ứng dụng</string>
+    <string name="save_notifications_warning">Chọn ít nhất một ứng dụng để lưu thông báo</string>
+    <string name="save_notifications_description">Cài đặt ứng dụng nhận tin nhắn</string>
+    <string name="no_notifications_yet">Chưa có thông báo nào</string>
+    <string name="no_results_found">Không tìm thấy kết quả nào</string>
+    <string name="finish">Hoàn thành</string>
+    <string name="next">Tiếp theo</string>
+    <string name="sponsored">Được tài trợ</string>
+    <string name="link_auto_start_battery_optimization_instruction" translatable="false">https://dontkillmyapp.com/</string>
+</resources>
